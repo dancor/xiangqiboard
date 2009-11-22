@@ -6,6 +6,7 @@
 module Main where
 
 import Graphics.UI.Gtk
+import Graphics.UI.Gtk.Gdk.Events
 import Graphics.Rendering.Cairo
 import System.IO
 import System.Process
