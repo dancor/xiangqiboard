@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://docbook.org/xml/4.2/docbookx.dtd">
+
+<article>
+<title>Xiangqiboard, a GUI for chinese chess</title>
+<articleinfo>
+<author>
+<firstname>Ralph</firstname>
+<surname>Glass</surname>
+</author>
+</articleinfo>
+
+<sect1>
+<title>Introduction</title>
+<para>
+Xiangqiboard provides a resizable board to play xiangqi against the hoichess/hoixiangqi engine.
+<graphic fileref="xiangqiboard.jpg"/>
+</para>    
+</sect1>
+
+<sect1>
+<title>Prerequisites</title>
+<para>
+Xianqiboard provides a graphical user interface to play Chinese Chess against a computer opponent. You also need an actual playing program. At this moment xiangqiboard supports <ulink url="http://hoicher.de/hoichess/"><citetitle>HoiXiangqi</citetitle></ulink> by Holger Ruckdeschel. HoiXiangqi is part of the Hoichess package. Xiangqiboard is tested with Hoichess Versions 0.8.0 and 0.10.3 on Ubuntu 7.10 GNU Linux.
+</para>
+</sect1
+
+<sect1>
+<title>Usage</title>
+<para>
+Use your mouse to enter the moves.
+</para>
+<para>
+You can change the time settings for the computer in the Time menu.
+</para>
+<para>
+The optional sideboard provides you with a selection of the xiangqi engine feedback. 
+</para>
+<para>
+Xiangqi is also known as Chinese Chess. It is one of the most popular games. The Wikipedia article on Xiangqi is a good starting point, if you are looking for further information on the game and how to play.
+</para>
+<para>
+Xiangqiboard uses the same Characters for the pieces of the two sides. The graphics are stored in single SVG files (scalabel vector graphics format) for each piece. You can easily change them by replacing the files. (The standard file path is /usr/share/game/xiangqiboard).
+</para>
+
+</sect1>
+    
+<sect1>
+<title>Acknowledgement</title>
+<para>
+Thanks to Holger Ruckdeschel for adapting HoiChess to Xiangqi, his HoiXiangqi enginge motivated me further to do this GUI. Thanks to the Gtk2HS, cairo developers and everybody working on GTK and Gnome. The pieces are hand created with Inkscape, the free software scalable vector graphics editor.
+</para>
+</sect1>
+
+<sect1 id>
+<title>Website</title>
+<para>
+Download the sources tarball or the deb package at <ulink url="http://xiangqiboard.blogspot.com"></ulink>
+</para>
+<para>
+Xiangqiboard is free software and licensed under the GNU General Public License, Version 2 or later.
+</para>
+</sect1>
+
+<sect1>
+<title>Contact</title>
+<para>
+Ralph Glass, Erpelweg 2, 86356 Neusaess, ralph.glass@t-online.de
+</para>
+</sect1>
+</article>

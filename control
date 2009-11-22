@@ -1,0 +1,20 @@
+Package: xiangqiboard
+Version: 0.1.3
+Section: games
+Priority: extra
+Essential: no
+Architecture: i386
+Depends: hoichess
+Enhances: hoichess
+Suggests: yelp
+Installed-Size: 4000
+Maintainer: Ralph Glass [ralph.glass@t-online.de]
+Provides:xiangqiboard
+Description: GTK GUI for playing Xiangqi with hoichess (hoixiangqi)
+ .
+ Xiangqiboard provides a resizeable graphical user interface for playing xiangqi 
+ or chinese chess against the hoixiangqi engine by Holger Ruckdeschel (hoixiangqi 
+ is included in the hoichess package). 
+ Xiangqiboard is implemented with the Gtk2Hs GUI Library for Haskell and makes use 
+ of the Cairo 2d graphics library via the GTK interface. The pieces are hand created 
+ with the vector graphics editor Inkscape. 

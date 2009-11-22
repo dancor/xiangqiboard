@@ -1,0 +1,25 @@
+changelog:
+Version 0.0.4
+loadgame, savegame and ceck for mate implemented
+
+Version 0.1.0
+Makefile for easy installation added, removed binary file from distribution tarball
+
+Version 0.1.2
+new option ai move blending 
+new option ai move animation
+deb package available
+new about dialog 
+play as black possible
+new undo command
+toggle sidebar 
+
+Version 0.1.3 
+hoixiangqi versions 0.8.0 and 0.10.3 supported
+simple help manual added
+radiomenu for time settings added 
+text entry deactivated (until entry is properly processed in future version)
+Makefile target clean added 
+Makefile target deb added (build deb package)
+
+

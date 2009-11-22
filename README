@@ -1,0 +1,25 @@
+Xiangqiboard, a GUI for chinese chess 
+
+Introduction:
+I missed a graphicle gnome application to play Xiangqi . This one features a resizable board. It is still very simple, but it's playable right now.
+
+Prerequisites:
+Xiangqiboard.hs is tested on Ubuntu 7.10 GNU Linux and compiles with the Glasgow Haskell Compiler.
+You also need hoichess/hoixiangqi by Holger Ruckdeschel (http://www.hoicher.de/hoichess/).
+hoichess Version 0.8.0 tested on Ubuntu 7.10 GNU Linux http://www.hoicher.de/hoichess/
+
+Usage:
+Use your mouse to enter the moves.
+
+Acknowledgement:
+Thanks to Holger Ruckdeschel for adapting HoiChess to Xiangqi, his HoiXiangqi motivated me further to to this GUI. Thanks to the cairo developers. The pieces are hand created with inkscape, a mighty fine free (GPL) software scalable vector graphics editor :-)
+
+Where to get it from:
+
+Download the tar (soon) and visit the website: 
+http://xiangqiboard.blogspot.com/
+
+Xiangqiboard is free software and licensed under the GNU General Public License, Version 2 or later.
+
+Contact:
+Ralph Glass, Erpelweg 2, 86356 Neusaess, ralph.glass@t-online.de 

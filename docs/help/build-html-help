@@ -1,0 +1,3 @@
+rm *.html
+xsltproc /usr/share/xml/gnome/xslt/docbook/html/db2html.xsl xiangqiboard.xml >> xiangqiboard.html
+firefox xiangqiboard.html
